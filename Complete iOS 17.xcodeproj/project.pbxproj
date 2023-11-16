@@ -11,6 +11,10 @@
 		39B8F9352B06833400554A99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9342B06833400554A99 /* ContentView.swift */; };
 		39B8F9372B06833500554A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B8F9362B06833500554A99 /* Assets.xcassets */; };
 		39B8F93A2B06833500554A99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B8F9392B06833500554A99 /* Preview Assets.xcassets */; };
+		39B8F9422B06848400554A99 /* GestureDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9412B06848400554A99 /* GestureDemo1.swift */; };
+		39B8F9442B0684F200554A99 /* ShowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9432B0684F200554A99 /* ShowImage.swift */; };
+		39B8F9462B06862C00554A99 /* GesterDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9452B06862C00554A99 /* GesterDemo2.swift */; };
+		39B8F9482B06875800554A99 /* GestureDemo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9472B06875800554A99 /* GestureDemo3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		39B8F9342B06833400554A99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39B8F9362B06833500554A99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39B8F9392B06833500554A99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39B8F9412B06848400554A99 /* GestureDemo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemo1.swift; sourceTree = "<group>"; };
+		39B8F9432B0684F200554A99 /* ShowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImage.swift; sourceTree = "<group>"; };
+		39B8F9452B06862C00554A99 /* GesterDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesterDemo2.swift; sourceTree = "<group>"; };
+		39B8F9472B06875800554A99 /* GestureDemo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemo3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 		39B8F9312B06833400554A99 /* Complete iOS 17 */ = {
 			isa = PBXGroup;
 			children = (
+				39B8F9402B06835900554A99 /* Gesture */,
 				39B8F9322B06833400554A99 /* Complete_iOS_17App.swift */,
 				39B8F9342B06833400554A99 /* ContentView.swift */,
 				39B8F9362B06833500554A99 /* Assets.xcassets */,
@@ -65,6 +74,17 @@
 				39B8F9392B06833500554A99 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39B8F9402B06835900554A99 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				39B8F9412B06848400554A99 /* GestureDemo1.swift */,
+				39B8F9432B0684F200554A99 /* ShowImage.swift */,
+				39B8F9452B06862C00554A99 /* GesterDemo2.swift */,
+				39B8F9472B06875800554A99 /* GestureDemo3.swift */,
+			);
+			path = Gesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B8F9462B06862C00554A99 /* GesterDemo2.swift in Sources */,
+				39B8F9422B06848400554A99 /* GestureDemo1.swift in Sources */,
+				39B8F9482B06875800554A99 /* GestureDemo3.swift in Sources */,
 				39B8F9352B06833400554A99 /* ContentView.swift in Sources */,
+				39B8F9442B0684F200554A99 /* ShowImage.swift in Sources */,
 				39B8F9332B06833400554A99 /* Complete_iOS_17App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
