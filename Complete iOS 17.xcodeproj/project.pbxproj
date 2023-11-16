@@ -15,6 +15,11 @@
 		39B8F9442B0684F200554A99 /* ShowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9432B0684F200554A99 /* ShowImage.swift */; };
 		39B8F9462B06862C00554A99 /* GesterDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9452B06862C00554A99 /* GesterDemo2.swift */; };
 		39B8F9482B06875800554A99 /* GestureDemo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9472B06875800554A99 /* GestureDemo3.swift */; };
+		39B8F94A2B06890B00554A99 /* GestureDemo4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9492B06890B00554A99 /* GestureDemo4.swift */; };
+		39B8F94C2B068B8C00554A99 /* GestureDemo5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F94B2B068B8C00554A99 /* GestureDemo5.swift */; };
+		39B8F94E2B068DA300554A99 /* MagnificationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F94D2B068DA300554A99 /* MagnificationDemo.swift */; };
+		39B8F9502B068FEE00554A99 /* MagnificationDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F94F2B068FEE00554A99 /* MagnificationDemo2.swift */; };
+		39B8F9522B06910800554A99 /* RotationGetureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9512B06910800554A99 /* RotationGetureDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		39B8F9432B0684F200554A99 /* ShowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImage.swift; sourceTree = "<group>"; };
 		39B8F9452B06862C00554A99 /* GesterDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesterDemo2.swift; sourceTree = "<group>"; };
 		39B8F9472B06875800554A99 /* GestureDemo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemo3.swift; sourceTree = "<group>"; };
+		39B8F9492B06890B00554A99 /* GestureDemo4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemo4.swift; sourceTree = "<group>"; };
+		39B8F94B2B068B8C00554A99 /* GestureDemo5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemo5.swift; sourceTree = "<group>"; };
+		39B8F94D2B068DA300554A99 /* MagnificationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationDemo.swift; sourceTree = "<group>"; };
+		39B8F94F2B068FEE00554A99 /* MagnificationDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationDemo2.swift; sourceTree = "<group>"; };
+		39B8F9512B06910800554A99 /* RotationGetureDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGetureDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				39B8F9432B0684F200554A99 /* ShowImage.swift */,
 				39B8F9452B06862C00554A99 /* GesterDemo2.swift */,
 				39B8F9472B06875800554A99 /* GestureDemo3.swift */,
+				39B8F9492B06890B00554A99 /* GestureDemo4.swift */,
+				39B8F94B2B068B8C00554A99 /* GestureDemo5.swift */,
+				39B8F94D2B068DA300554A99 /* MagnificationDemo.swift */,
+				39B8F94F2B068FEE00554A99 /* MagnificationDemo2.swift */,
+				39B8F9512B06910800554A99 /* RotationGetureDemo.swift */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -158,10 +173,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				39B8F9462B06862C00554A99 /* GesterDemo2.swift in Sources */,
+				39B8F9522B06910800554A99 /* RotationGetureDemo.swift in Sources */,
+				39B8F9502B068FEE00554A99 /* MagnificationDemo2.swift in Sources */,
 				39B8F9422B06848400554A99 /* GestureDemo1.swift in Sources */,
+				39B8F94E2B068DA300554A99 /* MagnificationDemo.swift in Sources */,
 				39B8F9482B06875800554A99 /* GestureDemo3.swift in Sources */,
 				39B8F9352B06833400554A99 /* ContentView.swift in Sources */,
 				39B8F9442B0684F200554A99 /* ShowImage.swift in Sources */,
+				39B8F94A2B06890B00554A99 /* GestureDemo4.swift in Sources */,
+				39B8F94C2B068B8C00554A99 /* GestureDemo5.swift in Sources */,
 				39B8F9332B06833400554A99 /* Complete_iOS_17App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
